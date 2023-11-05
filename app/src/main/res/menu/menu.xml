@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:id="@+id/QuanLyPhieuMuon"
+        android:icon="@drawable/home"
+        android:title="Quản lý phiếu mượn"/>
+    <item
+        android:id="@+id/QuanLyLoaiSach"
+        android:icon="@drawable/book"
+        android:title="Quản lý loại sách"/>
+    <item
+        android:id="@+id/QuanLySach"
+        android:icon="@drawable/bookmark"
+        android:title="Quản lý sách"/>
+    <item
+        android:id="@+id/QuanLyThuThu"
+        android:icon="@drawable/account"
+        android:title="Quản lý thủ thư"/>
+    <item
+        android:id="@+id/QuanLyThanhVien"
+        android:icon="@drawable/account"
+        android:title="Quản lý thành viên"/>
+    <group android:checkableBehavior="single">
+        <item android:title="Thống kê">
+            <menu>
+                <item
+                    android:id="@+id/top10"
+                    android:icon="@drawable/top"
+                    android:title="Top 10 sách thuê nhiều nhất"/>
+                <item
+                    android:id="@+id/doanhThu"
+                    android:icon="@drawable/money"
+                    android:title="Doanh thu"/>
+            </menu>
+        </item>
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Người dùng">
+            <menu>
+                <item
+                    android:id="@+id/ThemNguoiDung"
+                    android:icon="@drawable/account"
+                    android:title="Thêm người dùng"/>
+                <item
+                    android:id="@+id/doiMatKhau"
+                    android:icon="@drawable/autorenew"
+                    android:title="Đổi mật khẩu"/>
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/logout"
+                    android:title="Đăng xuất"/>
+            </menu>
+        </item>
+
+    </group>
+</menu>

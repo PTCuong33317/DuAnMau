@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/br"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.Fragment_PhieuMuon">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_phieumuon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_phieumuon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="620dp"
+        android:layout_marginLeft="320dp"
+        android:contentDescription="Thêm mới"
+        android:elevation="6dp"
+        android:src="@drawable/add"
+        app:backgroundTint="#2196F3"
+        app:fabSize="normal"
+        app:maxImageSize="56dp"
+        app:rippleColor="#ED0D0D"
+        app:tint="#FFFFFF" />
+
+</FrameLayout>
